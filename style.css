@@ -1,0 +1,76 @@
+body {
+  background-color: #fffbdb;
+  margin: 0 auto;
+  padding: 0;
+  width: 430px;
+  height: 100vh;
+  overflow: visible;   /* change from hidden to visible */
+  position: relative;
+}
+
+
+/* Sun */
+.sun {
+  position: absolute;
+  top: -100px;
+  left: -50px;
+}
+
+
+
+h1 {
+  font-family: "bickham-script-pro-3", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 100vw;     /* switch from 400px to vw so it scales with the box */
+  color: #B86A1C;
+  margin: 0;
+  position: absolute;
+  top: 100px;
+  left: 200px;
+  pointer-events: none;
+  white-space: nowrap;
+  overflow: visible;
+  width: max-content;
+}
+
+
+/* Floor */
+.floor {
+  position: absolute;
+  top: 1000px;
+  left: -100px;
+}
+
+/* Cacti */
+.cactus-1 {
+  position: absolute;
+  top: 686px;
+  left: 960px;
+}
+
+.cactus-2 {
+  position: absolute;
+  top: 830px;
+  left: 736px;
+}
+
+.cactus-3 {
+  position: absolute;
+  top: 796px;
+  left: 768px;
+}
+
+/* Tumbleweed */
+.tumbleweed {
+  position: absolute;
+  top: 960px;
+  left: 100px;
+}
+
+/* Grass */
+.grass {
+  position: absolute;
+  top: 960px;
+  left: 100px;
+}
